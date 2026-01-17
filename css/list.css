@@ -1,0 +1,33 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    padding: 10% 15%;
+}
+
+        ol {
+            list-style-type: upper-roman  ;
+}
+
+ul {
+    list-style-type: square;
+    text-align: left;
+    list-style-position: inside;
+    color: green;
+    line-height: 2;
+    /* list-style-image: url("https://img.icons8.com/emoji/48/check-box-with-check-emoji.png");
+    list-style: disc url('checkpoint.svg') inside;
+} */
+}
+
+
+ul li:nth-child(odd) {
+    color: red;
+}
+
+
+ul ::marker {
+    color: red;
+    font-family: fantasy;
+    font-size: 1.5rem;
+    content: "👉";
+}

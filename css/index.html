@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Tudo sobre gatos vira-latas: personalidades, cores e por que adotar um SRD.">
+    <meta name="author" content="Letícia Santos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo dos Gatos Vira-Latas</title>
+    
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#tipos">Tipos de Pelagem</a></li>
+                <li><a href="#cuidados">Cuidados</a></li>
+                <li><a href="#adocao">Adote um Bichano</a></li>
+            </ul>
+        </nav>
+
+        <h1>Gatos Vira-Latas <abbr title="Sem Raça Definida">(SRD)</abbr></h1>
+    </header>
+
+    <hr>
+
+    <main>
+        <article class="conteudo" id="sobre">
+            <h2>A Magia dos Gatos sem Raça Definida</h2>
+            <p>Os gatos vira-latas são conhecidos pela sua resistência, inteligência e personalidades únicas.</p>
+            
+            <figure>
+                <img src="gato_laranja.webp" alt="Um lindo gato vira-lata malhado descansando">
+                <figcaption>Gatos SRD possuem uma diversidade genética incrível.</figcaption>
+            </figure>
+        </article>
+
+        <hr>
+
+        <article  class="conteudo" id="tipos">
+            <h2>Tipos Comuns de Pelagem</h2>
+            <p>Embora não tenham raça, os vira-latas costumam apresentar padrões clássicos:</p>
+            
+            <ul>
+                <li><strong>Tuxedo:</strong> Gatos pretos com manchas brancas.</li>
+                <li><strong>Tabby:</strong> O famoso "tigrado" ou riscado.</li>
+                <li><strong>Calico:</strong> Gatas tricôlores (geralmente fêmeas).</li>
+            </ul>
+
+            <h3>Ranking de Popularidade de Cores</h3>
+            <ol>
+                <li>Sólidos (Preto, Branco, Cinza)</li>
+                <li>Bicolores</li>
+                <li>Escaminhas (Tortoiseshell)</li>
+            </ol>
+
+            <aside>
+                <details>
+                    <summary>O que é SRD?</summary>
+                    <p>Sigla para "Sem Raça Definida", termo técnico para vira-latas.</p>
+                </details>
+            </aside>
+        </article>
+
+        <hr>
+
+        <article  class="conteudo" id="cuidados">
+            <h2>Expectativa de Vida e Saúde</h2>
+            <table class="tabela">
+                <thead>
+                    <tr>
+                        <th>Estilo de Vida</th>
+                        <th>Expectativa Média</th>
+                        <th>Nível de Risco</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Apenas em casa (Indoor)</td>
+                        <td>15-20 anos</td>
+                        <td>Baixo</td>
+                    </tr>
+                    <tr>
+                        <td>Acesso à rua</td>
+                        <td>3-5 anos</td>
+                        <td>Muito Alto</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+
+        <hr>
+        <br>
+
+        <section class="formulario" id="adocao">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Informações de Contato para Adoção</legend>
+                    
+                    <p>Para dúvidas, visite nossa <a href="https://exemplo.com">ONG parceira</a> ou preencha abaixo:</p>
+
+                    <p>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required autocomplete="on" autofocus placeholder="Seu nome...">
+                    </p>
+
+                    <p>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required autocomplete="on" placeholder="Seu melhor e-mail">
+                    </p>
+
+                    <p>
+                        Já tem experiẽñcia com gato antes?
+                        <input type="checkbox" name="opcao" value="tenho">
+                        <label for="tenho">Tenho</label>
+                        <input type="checkbox" name="opcao" value="nao_tenho">
+                        <label for="nao_tenho">Não Tenho</label>
+                    </p>
+                    
+
+                    <br>
+                    
+
+                    <fieldset>
+                        <legend>Preferencias</legend>
+                        <p>
+                            <label for="preferencia">Qual tipo de pelagem você busca?</label>
+                            <select id="preferencia" name="preferencia" multiple size="1">
+                                <optgroup label="Cores Sólidas">
+                                    <option value="preto" selected>Preto</option>
+                                    <option value="branco">Branco</option>
+                                    <option value="cinza">Cinza</option>
+                                </optgroup>
+                                <optgroup label="Padrões Mistos">
+                                    <option value="tigrado">Tigrado</option>
+                                    <option value="tricolor">Tricolor</option>
+                                    <option value="escama">Escaminha</option>
+                                    <option value="laranja_e_branco">Laranja e Branco</option>
+                                </optgroup>
+                            </select>
+                        </p>
+                        <p>
+                            Idade preferencial do gato:<br>
+                            <p>
+                                <input type="radio" id="filhote" name="idade" value="filhote" checked>
+                                <label for="filhote">Filhote</label>
+                        
+                                <input type="radio" id="adulto" name="idade" value="adulto">
+                                <label for="adulto">Adulto</label>
+                        
+                                <input type="radio" id="senior" name="idade" value="senior">
+                                <label for="senior">Sênior</label>
+                            </p>
+                        </p>
+                        <p>
+                            Sexo preferencial: <br>
+                            <p>
+                                <input type="radio" name="sexo" value="femea">
+                                <label for="femea">Fêmea</label>
+                                <input type="radio" name="sexo" value="macho">
+                                <label for="macho">Macho</label>
+                            </p>
+                        </p>
+                    </fieldset>
+                    <br>
+
+                    <fieldset>
+                        <legend>Mensagem</legend>
+                        <label for="mensagem">Fale um pouco sobre sua rotina:</label>
+                        <br>
+                        <textarea id="mensagem" name="mensagem" cols="30" rows="5" placeholder="Conte-nos por que quer adotar..."></textarea>
+                    </fieldset>
+
+                    <p>
+                        <input type="checkbox" id="termos" name="termos" required>
+                        <label for="termos">Concordo com os termos de posse responsável.</label>
+                    </p>
+
+                    <button type="submit">Enviar Formulário</button>
+                    <button type="reset">Limpar Formulário</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p><a href="#">Back to top</a></p>
+        <p>&copy; 2026 - Portal dos Gatinhos - Siga-nos no <a href="https://instagram.com">Instagram</a></p>
+    </footer>
+
+</body>
+</html>

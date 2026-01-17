@@ -1,0 +1,26 @@
+html {
+    background-color: #0d1117;
+    color: #e6edf3;
+}
+
+a {
+    color: #58a6ff;
+    /* color: #00ced1; */
+}
+
+a:hover {
+      color: #99caff;
+}
+
+table, th, td, caption {
+    border: 1px solid #eee;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+#mensagem {
+    background-color: whitesmoke;
+    color: rgb(49, 46, 46);
+}
+
+
